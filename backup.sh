@@ -13,6 +13,8 @@ if [! -d "$desti" ];then
 
 fi 
 
+# Copying the files from sour to desti
+
 scp -r "$sourc" * "$dest"
 chown -R linusupport:linuxsupport "$desti"
 
